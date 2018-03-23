@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" id="WebApp_ID" version="3.0">
+  <display-name>tut2</display-name>
+  <context-param> 
+    <description>Location to store uploaded file</description> 
+    <param-name>file-path</param-name> 
+    <param-value>/home/suraj/eclipse-workspace/demo_form/WebContent/pictures</param-value> 
+  </context-param>
+  <servlet>
+    <servlet-name>HelloForm</servlet-name>
+    <servlet-class>demo_form.HelloForm</servlet-class>
+    <load-on-startup>0</load-on-startup>
+  </servlet>
+  <servlet>
+    <servlet-name>CheckForm</servlet-name>
+    <servlet-class>demo_form.CheckForm</servlet-class>
+    <load-on-startup>1</load-on-startup>
+  </servlet>
+  <servlet>
+    <servlet-name>InsertDb</servlet-name>
+    <servlet-class>demo_form.InsertDb</servlet-class>
+    <load-on-startup>2</load-on-startup>
+  </servlet>
+  <servlet>
+    <servlet-name>JsonSample</servlet-name>
+    <servlet-class>demo_form.JsonSample</servlet-class>
+    <load-on-startup>3</load-on-startup>
+  </servlet>
+  <servlet>
+    <servlet-name>JsonProduct</servlet-name>
+    <servlet-class>demo_form.JsonProduct</servlet-class>
+    <load-on-startup>4</load-on-startup>
+  </servlet>
+  <servlet>
+    <servlet-name>AjaxPrice</servlet-name>
+    <servlet-class>demo_form.AjaxPrice</servlet-class>
+    <load-on-startup>5</load-on-startup>
+  </servlet>
+  
+  <servlet-mapping>
+    <servlet-name>HelloForm</servlet-name>
+    <url-pattern>/HelloForm</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CheckForm</servlet-name>
+    <url-pattern>/CheckForm</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>InsertDb</servlet-name>
+    <url-pattern>/InsertDb</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>JsonSample</servlet-name>
+    <url-pattern>/JsonSample</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>JsonProduct</servlet-name>
+    <url-pattern>/JsonProduct</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AjaxPrice</servlet-name>
+    <url-pattern>/AjaxPrice</url-pattern>
+  </servlet-mapping>
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>
