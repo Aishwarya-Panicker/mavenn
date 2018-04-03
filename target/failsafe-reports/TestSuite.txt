@@ -1,8 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 5.583 s <<< FAILURE! - in TestSuite
-verifyGooglePageTittle(com.google.tests.GoogleHomePageTest)  Time elapsed: 2.238 s  <<< FAILURE!
-java.lang.AssertionError: expected [Login Form] but found [Unique Login Form Flat Responsive widget Template :: w3layouts]
-	at com.google.tests.GoogleHomePageTest.verifyGooglePageTittle(GoogleHomePageTest.java:28)
-
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 10.315 s - in TestSuite
