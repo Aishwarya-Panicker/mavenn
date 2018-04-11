@@ -62,6 +62,9 @@ public class HelloForm extends HttpServlet {
     	   response.sendRedirect("home.jsp");  
     	   
        }
+       else {
+    	   response.sendRedirect("index.jsp");  
+       }
 
 		
      
