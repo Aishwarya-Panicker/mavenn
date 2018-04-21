@@ -10,10 +10,11 @@ function logsend(target) {
 function logEvent(data) {
 	
 	var request = new XMLHttpRequest();
-    request.open('POST', 'http://172.17.0.1:8090/abcd', true);
+    
+	request.open('POST', 'http://172.17.0.1:8090/abcd', true);
     request.setRequestHeader('Content-Type', 'application/json');
-    str=JSON.stringify(eventData);
-    //alert(data)
+    str=JSON.stringify(data);
+    //alert(str)
     request.send(str);
     
 }
