@@ -89,7 +89,7 @@ public class InsertDb extends HttpServlet {
 				Class.forName("com.mysql.jdbc.Driver");  
 				  // Execute SQL query
 				Connection con = DriverManager.getConnection(
-		                "jdbc:mysql://localhost:3306/P1?autoReconnect=true&useSSL=false", "root", "root123");
+		                "jdbc:mysql://172.17.0.3:3306/P1?autoReconnect=true&useSSL=false", "root", "root123");
 				
 		         String sql = "INSERT INTO product(name,descr,price,incr,hour,path) values(?, ?, ?, ?, ?, ?)";
 		            
