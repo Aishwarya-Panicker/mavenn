@@ -18,7 +18,7 @@ import javax.servlet.http.HttpServletResponse;
 // Extend HttpServlet class
 public class HelloForm extends HttpServlet {
  
-   public void doGet(HttpServletRequest request, HttpServletResponse response)
+   public void doPost(HttpServletRequest request, HttpServletResponse response)
       throws ServletException, IOException {
       
       // Set response content type
@@ -69,7 +69,10 @@ public class HelloForm extends HttpServlet {
 		
      
 		con.close();  
-	}catch(Exception e){ System.out.println(e);}  
+	}catch(Exception e){
+						response.sendRedirect("index.jsp"); 
+						System.out.println(e);
+						}  
    
    }
 }
