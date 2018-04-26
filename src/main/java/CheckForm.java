@@ -1,4 +1,5 @@
 
+import javax.servlet.annotation.WebServlet;
 
 import javax.servlet.http.HttpSession;
 import java.io.IOException;
@@ -16,18 +17,17 @@ import javax.servlet.http.HttpServletResponse;
 /**
  * Servlet implementation class CheckForm
  */
+@WebServlet("/CheckForm")
 
 public class CheckForm extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 
-	public void doGet(HttpServletRequest request, HttpServletResponse response)
+	public void doPost(HttpServletRequest request, HttpServletResponse response)
 		      throws ServletException, IOException {
 		      
 		      // Set response content type
 		      response.setContentType("text/html");
 
-		      
-		      
 		      String uid=request.getParameter("userid");
 		      String psw=request.getParameter("psw");
 		      PrintWriter out = response.getWriter();
@@ -36,7 +36,7 @@ public class CheckForm extends HttpServlet {
 				Class.forName("com.mysql.jdbc.Driver");  
 				  // Execute SQL query
 				Connection con = DriverManager.getConnection(
-						 "jdbc:mysql://172.17.0.3:3306/p1", "root", "hello123");
+						 "jdbc:mysql://localhost:3306/P1", "root", "root123");
 				   
 				Statement stmt = con.createStatement();
 			    

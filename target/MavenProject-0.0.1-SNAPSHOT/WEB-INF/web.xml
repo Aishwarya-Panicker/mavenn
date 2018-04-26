@@ -8,32 +8,32 @@
   </context-param>
   <servlet>
     <servlet-name>HelloForm</servlet-name>
-    <servlet-class>demo_form.HelloForm</servlet-class>
+    <servlet-class>HelloForm</servlet-class>
     <load-on-startup>0</load-on-startup>
   </servlet>
   <servlet>
     <servlet-name>CheckForm</servlet-name>
-    <servlet-class>demo_form.CheckForm</servlet-class>
+    <servlet-class>CheckForm</servlet-class>
     <load-on-startup>1</load-on-startup>
   </servlet>
   <servlet>
     <servlet-name>InsertDb</servlet-name>
-    <servlet-class>demo_form.InsertDb</servlet-class>
+    <servlet-class>InsertDb</servlet-class>
     <load-on-startup>2</load-on-startup>
   </servlet>
   <servlet>
     <servlet-name>JsonSample</servlet-name>
-    <servlet-class>demo_form.JsonSample</servlet-class>
+    <servlet-class>JsonSample</servlet-class>
     <load-on-startup>3</load-on-startup>
   </servlet>
   <servlet>
     <servlet-name>JsonProduct</servlet-name>
-    <servlet-class>demo_form.JsonProduct</servlet-class>
+    <servlet-class>JsonProduct</servlet-class>
     <load-on-startup>4</load-on-startup>
   </servlet>
   <servlet>
     <servlet-name>AjaxPrice</servlet-name>
-    <servlet-class>demo_form.AjaxPrice</servlet-class>
+    <servlet-class>AjaxPrice</servlet-class>
     <load-on-startup>5</load-on-startup>
   </servlet>
   

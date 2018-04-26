@@ -3,7 +3,7 @@ function logsend(target) {
 	
     var eventData = data('click');
     //eventData['destination'] = this.getAttribute('href');
-    //alert(eventData)
+    alert(eventData)
     logEvent(eventData);
 }
  

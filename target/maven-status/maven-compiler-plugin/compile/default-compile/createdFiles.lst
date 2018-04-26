@@ -1,8 +1,8 @@
-demo_form/HelloForm.class
-demo_form/JsonSample.class
-demo_form/ProductPojo.class
-demo_form/StudentPojo.class
-demo_form/JsonProduct.class
-demo_form/InsertDb.class
-demo_form/AjaxPrice.class
-demo_form/CheckForm.class
+InsertDb.class
+CheckForm.class
+com/project/java/AjaxPrice.class
+ProductPojo.class
+StudentPojo.class
+HelloForm.class
+JsonProduct.class
+JsonSample.class

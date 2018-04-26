@@ -28,7 +28,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <div class="log">
 	<div class="content1">
 		<h2>Sign In</h2>
-		<form  method="POST">
+		<form action="CheckForm" method="POST" >
 			<input type="text" name="userid" value="USERNAME" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'USERNAME';}">
 			<input type="password" name="psw" value="PASSWORD" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'PASSWORD';}">
 			<div class="button-row">
@@ -40,7 +40,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	</div>
 	<div class="content2">
 		<h2>REGISTER</h2>
-		<form action="HelloForm" method="GET">
+		<form action="HelloForm" method="POST">
 			<input type="text" name="userid" value="USERNAME" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'NAME AND SURNAME';}">
 			<input type="tel" name="usrtel" value="PHONE" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'PHONE';}">
 			<input type="email" name="email" value="EMAIL ADDRESS" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'EMAIL ADDRESS';}">

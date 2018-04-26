@@ -1,4 +1,4 @@
-package com.project.java;
+
 import java.io.IOException;
 import java.io.PrintWriter;
 import java.sql.Connection;
@@ -33,7 +33,7 @@ public class AjaxPrice extends HttpServlet {
 			Class.forName("com.mysql.jdbc.Driver");  
 			  // Execute SQL query
 			Connection con = DriverManager.getConnection(
-	                "jdbc:mysql://localhost:3306/P1", "root", "root123");
+	                "jdbc:mysql://172.17.0.3:3306/P1", "root", "root123");
 
 			Statement stmt = con.createStatement();
 		    
