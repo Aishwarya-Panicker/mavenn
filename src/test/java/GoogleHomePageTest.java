@@ -25,7 +25,7 @@ public class GoogleHomePageTest {
 	public void verifyGooglePageTittle() {
 		driver.navigate().to(appURL);
 		String getTitle = driver.getTitle();
-		Assert.assertEquals("Login Form", "Login Form");
+		Assert.assertEquals("getTitle", "Login Form");
 	}
 	
 	@AfterClass
