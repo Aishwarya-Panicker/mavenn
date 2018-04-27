@@ -138,6 +138,7 @@ public class InsertDb extends HttpServlet {
 		    	   response.sendRedirect("home.jsp");  
 		    	   
 		       }
+		         out.println("hello");
 			    
 				con.close();  
 			
