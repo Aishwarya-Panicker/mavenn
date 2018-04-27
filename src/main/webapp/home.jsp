@@ -76,7 +76,7 @@ else{
       <li class="active"><a href="home.jsp">Home</a></li>
       <li><a href="bootstrap_inp.jsp">Add Product</a></li>
       <li><a href="catalog.jsp">Browse</a></li>
-      <li><a href="catalog.jsp">Modify</a></li>
+      
     </ul>
   </div>
 </nav>
