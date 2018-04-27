@@ -135,7 +135,7 @@ public class InsertDb extends HttpServlet {
 		         out.println("h2");
 		         if(row!=0) {
 		    	   out.print(row);
-		    	   response.sendRedirect("home.jsp");  
+		    	   response.sendRedirect("catalog.jsp");  
 		    	   
 		       }
 		         out.println("h3");

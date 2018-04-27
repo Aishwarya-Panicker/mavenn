@@ -50,7 +50,7 @@ public class CheckForm extends HttpServlet {
 		    	   //out.print("successfully logged in");
 		    	   HttpSession session = request.getSession();
 					session.setAttribute("user", uid);
-					session.setMaxInactiveInterval(30*1);
+					session.setMaxInactiveInterval(300*1);
 		    	   
 		    	   response.sendRedirect("home.jsp");  
 		    	   

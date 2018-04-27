@@ -43,7 +43,7 @@ public class JsonProduct extends HttpServlet {
 			Class.forName("com.mysql.jdbc.Driver");  
 			  // Execute SQL query
 			con = DriverManager.getConnection(
-	              "jdbc:mysql://localhost:3306/P1", "root", "root123");
+	              "jdbc:mysql://172.17.0.3:3306/P1", "root", "root123");
 
 
 					st = con.createStatement();
