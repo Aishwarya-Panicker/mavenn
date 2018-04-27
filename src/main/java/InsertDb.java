@@ -115,7 +115,7 @@ public class InsertDb extends HttpServlet {
 		         
 		         }
 		          
-		       //  out.println(input); 
+		         out.println(input); 
 		         PreparedStatement statement = con.prepareStatement(sql);
 		         
 		         statement.setString(1, input.get("firstname"));
@@ -138,7 +138,7 @@ public class InsertDb extends HttpServlet {
 		    	   response.sendRedirect("home.jsp");  
 		    	   
 		       }
-		         out.println("hello");
+		         //out.println("hello");
 			    
 				con.close();  
 			
