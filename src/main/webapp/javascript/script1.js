@@ -32,7 +32,7 @@ window.onload=function(){
 			var str1="pictures/"
 			cur_path=str1+cur_path;
 			//alert(cur_path);
-			x.setAttribute("src",cur_path);
+		//	x.setAttribute("src",cur_path);
 			x.setAttribute("width", "200");
 			x.setAttribute("height", "180");
 			x.setAttribute("alt", "product image");
