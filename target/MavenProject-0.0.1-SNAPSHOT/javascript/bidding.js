@@ -5,7 +5,7 @@ function priceChange(){
 	
 	$.post("AjaxPrice",{name: this.id},
 		    function(data, status){ 
-		       //alert(data);
+		       alert(data);
 		       
 		       var ele=document.getElementsByClassName(id)[0];
 	

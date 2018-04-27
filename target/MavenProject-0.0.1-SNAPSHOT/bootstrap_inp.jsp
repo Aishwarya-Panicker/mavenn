@@ -46,7 +46,7 @@ if(session.getAttribute("user") == null){
 }
 else{ 
 	user = (String) session.getAttribute("user");
-	out.print("you are successfully logged in");
+	//out.print("you are successfully logged in");
 }
 
 %>

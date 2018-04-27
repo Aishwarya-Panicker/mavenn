@@ -3,12 +3,12 @@ window.onload=function(){
 
 
 	$.get("JsonProduct", function(data, status){
-	;  
+	
 		
 				var ret=JSON.parse(data);
-    		//alert("Data: " + data + "\nStatus: " + status);
+    		alert("Data: " + data + "\nStatus: " + status);
   
-		
+		/*
 		for( i=0 ;i<ret.ProductDetails.length ;i++){
 			var dv = document.createElement("div");// Create a <p> element
 			var p1=document.createElement("p");
@@ -32,7 +32,7 @@ window.onload=function(){
 			var str1="pictures/"
 			cur_path=str1+cur_path;
 			//alert(cur_path);
-			x.setAttribute("src",cur_path);
+		//	x.setAttribute("src",cur_path);
 			x.setAttribute("width", "200");
 			x.setAttribute("height", "180");
 			x.setAttribute("alt", "product image");
@@ -75,6 +75,6 @@ window.onload=function(){
 		}
 
 	
-        
+       */ 
 	});
 };
