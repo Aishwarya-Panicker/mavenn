@@ -3,10 +3,10 @@ window.onload=function(){
 
 
 	$.get("JsonProduct", function(data, status){
-	;  
+	
 		
 				var ret=JSON.parse(data);
-    		//alert("Data: " + data + "\nStatus: " + status);
+    		alert("Data: " + data + "\nStatus: " + status);
   
 		
 		for( i=0 ;i<ret.ProductDetails.length ;i++){
