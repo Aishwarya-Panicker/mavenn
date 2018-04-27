@@ -128,17 +128,17 @@ public class InsertDb extends HttpServlet {
 		         statement.setString(6,Path);
 		        
 		        // InputStream inputStream = new FileInputStream(new File(filePath));
-		         
+		         out.println("h1");
 		 
 		
 		         int row = statement.executeUpdate();
-		         
+		         out.println("h2");
 		         if(row!=0) {
 		    	   out.print(row);
 		    	   response.sendRedirect("home.jsp");  
 		    	   
 		       }
-		         //out.println("hello");
+		         out.println("h3");
 			    
 				con.close();  
 			
