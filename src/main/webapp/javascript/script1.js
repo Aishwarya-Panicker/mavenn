@@ -1,5 +1,4 @@
-
-window.onload=function(){	
+$(document).ready(function() {
 
 
 	$.get("JsonProduct", function(data, status){
@@ -8,7 +7,7 @@ window.onload=function(){
 				var ret=JSON.parse(data);
     		alert("Data: " + data + "\nStatus: " + status);
   
-		/*
+		
 		for( i=0 ;i<ret.ProductDetails.length ;i++){
 			var dv = document.createElement("div");// Create a <p> element
 			var p1=document.createElement("p");
@@ -75,6 +74,6 @@ window.onload=function(){
 		}
 
 	
-       */ 
+        
 	});
-};
+});
