@@ -24,7 +24,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <!-- /css files -->
 </head>
 <body>
-<h1>WELCOME</h1>
+<h1>Welcome to AuctionShop.com </h1>
 <div class="log">
 	<div class="content1">
 		<h2>Sign In</h2>
